@@ -1,11 +1,5 @@
 # Cli application based on ENM Topology Browser API
 
-[![NPM][npm-badge]][npm]
-
-[![LICENSE][license-badge]][license]
-
-[![dependencies][dependencies-badge]][dependencies-david]
-
 ## Main goal
 
 Main features is type suggestions everywhere where it is possible and detailed attributes and values description available in config mode.
