@@ -6,12 +6,12 @@ Main features is type suggestions everywhere where it is possible and detailed a
 
 ## Installation
 
-First you need **node.js** which can be downloaded from official site nodejs.org and installed as described in the docs.
+First you need **node.js** which can be downloaded from official site [nodejs.org](https://nodejs.org/en/download/) and installed as described in the docs.
 
 Next clone or download this repository and run from the project root directory ...
 
 ```
-npm i
+npm install
 ```
 
 ... to install dependencies,
@@ -53,7 +53,7 @@ Authentication Successful
 
 > **Note:** _only `show` command can have parameter, all other commands haven't._
 
-- `show` - shows current object's attributes
+- `show [<valid regex>]` - shows current object's attributes filtered with regex
 - `config` - enters _config_ mode
 - `up` - navigate up one level
 - `home` - navigate to root folder
@@ -113,7 +113,7 @@ SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC> MeContext=RNC01
 ... show attributes with filter
 
 ```
-... Network=ONRM_ROOT_MO,SubNetwork=RNC,MeContext=RNC01> show type
+... Network=ONRM_ROOT_MO,SubNetwork=RNC,MeContext=RNC01> show Type
 > show type
 ✔ Reading Topology...
 
@@ -350,3 +350,7 @@ EMN returns error if commited configuration includes attributes with type SHORT.
 ## Credits
 
 [Contact Me](https://github.com/vvsviridov/) to request new feature or bugs reporting.
+
+## Changes
+
+1.0.1a - `show` command filter is regex now
