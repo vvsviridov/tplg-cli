@@ -51,11 +51,12 @@ Authentication Successful
 
 ### Commands
 
-> **Note:** _only `show` command can have parameter, all other commands haven't._
+> **Note:** _only `show` and `fdn` command can have parameter, all other commands haven't._
 
 - `show [<valid regex>]` - shows current object's attributes filtered with regex
 - `config` - enters _config_ mode
 - `up` - navigate up one level
+- `fdn <valid FDN>` - navigate to FDN
 - `home` - navigate to root folder
 - `exit` - logout and exit application
 
