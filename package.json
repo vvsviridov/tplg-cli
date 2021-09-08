@@ -1,6 +1,6 @@
 {
   "name": "tplg-cli",
-  "version": "1.0.2a",
+  "version": "1.0.3a",
   "description": "This is a cli application to access Ericcson Network Manager (ENM) Topology Browser",
   "bin": "./bin/tplg-cli.js",
   "scripts": {

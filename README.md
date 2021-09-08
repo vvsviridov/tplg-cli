@@ -58,6 +58,7 @@ Authentication Successful
 - `up` - navigate up one level
 - `fdn <valid FDN>` - navigate to FDN
 - `home` - navigate to root folder
+- `persistent` - toggle persistent attributes inclusion
 - `exit` - logout and exit application
 
 Start typing and you see only matches commands to your input.
@@ -142,6 +143,12 @@ Return to the root from anywhere ...
 > home
 ✔ Reading Topology...
 SubNetwork=ONRM_ROOT_MO>
+```
+
+Go to specific FDN ...
+
+```
+... Network=ONRM_ROOT_MO,SubNetwork=RNC,MeContext=RNC01> fdn NetworkElement=RBS01
 ```
 
 And logout and exit ...

@@ -5,3 +5,7 @@
 ## 1.0.2a
 
 Adding `fdn` command
+
+## 1.0.3a
+
+Adding `persistent` command
