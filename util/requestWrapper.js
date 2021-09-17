@@ -10,6 +10,7 @@ async function requestWrapper(func, text = 'Reading Topology...') {
     result = await func()
     spinner.succeed()
   } catch (err) {
+    result = err.response
     spinner.fail()
     logError(err)
   } finally {

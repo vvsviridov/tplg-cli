@@ -9,3 +9,7 @@ Adding `fdn` command
 ## 1.0.3a
 
 Adding `persistent` command
+
+## 1.0.4a
+
+Error corrections
