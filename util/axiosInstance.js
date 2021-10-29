@@ -19,4 +19,9 @@ function createAxiosInstance(url) {
 }
 
 
-module.exports = { axiosInstance, createAxiosInstance }
+function getAxiosInstance() {
+  return axiosInstance
+}
+
+
+module.exports = { getAxiosInstance, createAxiosInstance }
