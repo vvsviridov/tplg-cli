@@ -15,7 +15,11 @@ const timeValues = [
 function logAlarm(alarmList, eventPoId) {
   const alarm = alarmList.filter(item => item.eventPoIdAsLong === eventPoId)[0]
   timeValues.forEach(value => alarm[value] = eventTimeToString(alarm[value]))
-  console.log(JSON.stringify(alarm, null, 2))
+  console.log(
+    JSON.stringify(alarm, null, 2)
+      .replace(/["(){}\[\]]/mg, '')
+      .replace(/^(\s{2}\w+):/mg, '$1:'.green)
+  )
 }
 
 
