@@ -2,8 +2,8 @@
 
 function eventTimeToString(eventTime) {
   if (!eventTime) return ''
-  const eventDateTime = new Date(eventTime)
-  return `${eventDateTime.toLocaleDateString()} ${eventDateTime.toLocaleTimeString()}`
+  return new Date(eventTime).toISOString().slice(0, -1).split('T').join(' ')
+  // return `${eventDateTime.toLocaleDateString()} ${eventDateTime.toLocaleTimeString()}`
 }
 
 
