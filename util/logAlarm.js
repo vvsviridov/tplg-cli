@@ -18,6 +18,7 @@ function logAlarm(alarmList, eventPoId) {
   console.log(
     JSON.stringify(alarm, null, 2)
       .replace(/["(){}\[\]]/mg, '')
+      .replace(/,$/mg, '')
       .replace(/^(\s{2}\w+):/mg, '$1:'.green)
   )
 }
