@@ -32,4 +32,4 @@ async function main() {
   }
 }
 
-;(async () => main())()
+;(async () => await main())()
