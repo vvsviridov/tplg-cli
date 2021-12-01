@@ -13,3 +13,7 @@ Adding `persistent` command
 ## 1.0.4a
 
 Error corrections
+
+## 1.0.5a
+
+Added `alarms` command
