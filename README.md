@@ -59,6 +59,7 @@ Authentication Successful
 - `fdn <valid FDN>` - navigate to FDN
 - `home` - navigate to root folder
 - `alarms` - show alarms
+- `sync` - initiate node synchronization
 - `persistent` - toggle persistent attributes inclusion
 - `exit` - logout and exit application
 
@@ -370,4 +371,4 @@ EMN returns error if commited configuration includes attributes with type SHORT.
 
 1.0.4a - Error corrections
 
-1.0.5a - Added `alarms` command
+1.0.5a - Added `alarms`, `sync` commands
