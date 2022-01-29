@@ -7,17 +7,17 @@
 
 Main features is type suggestions everywhere where it is possible and detailed attributes and values description available in config mode.
 
-## Run directly from NPM
+## Installation
+
+First you need **node.js** which can be downloaded from official site [nodejs.org](https://nodejs.org/en/download/) and installed as described in the docs.
+
+Then you can run directly from NPM without installation
 
 ```
 npx tplg-cli -l USERNAME -p PASSWORD -u https://enm.your.company.domain.com
 ```
 
-## Installation
-
-First you need **node.js** which can be downloaded from official site [nodejs.org](https://nodejs.org/en/download/) and installed as described in the docs.
-
-Next clone or download this repository and run from the project root directory ...
+Or clone or download this repository and run from the project root directory ...
 
 ```
 npm install
