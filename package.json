@@ -1,12 +1,26 @@
 {
   "name": "tplg-cli",
-  "version": "1.0.5a",
+  "version": "1.0.6-a",
   "description": "This is a cli application to access Ericcson Network Manager (ENM) Topology Browser",
   "bin": "./bin/tplg-cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "Ericsson",
+    "ENM",
+    "Network Manager",
+    "LTE",
+    "3G",
+    "4G",
+    "5G",
+    "Automation",
+    "GSM",
+    "UMTS",
+    "OSS",
+    "Cellular",
+    "REST"
+  ],
   "author": "vvsviridov",
   "license": "MIT",
   "dependencies": {

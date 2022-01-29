@@ -17,3 +17,7 @@ Error corrections
 ## 1.0.5a
 
 Added `alarms`, `sync` commands
+
+## 1.0.6a
+
+Publish to NPM

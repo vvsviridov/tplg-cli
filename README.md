@@ -1,8 +1,17 @@
 # Cli application based on ENM Topology Browser API
 
+[![Node version](https://img.shields.io/github/package-json/version/vvsviridov/tplg-cli?label=tplg-cli&color=brightgreen)](https://github.com/vvsviridov/tplg-cli)
+[![Node version](https://img.shields.io/npm/v/tplg-cli?color=red)](https://www.npmjs.com/package/tplg-cli)
+
 ## Main goal
 
 Main features is type suggestions everywhere where it is possible and detailed attributes and values description available in config mode.
+
+## Run directly from NPM
+
+```
+npx tplg-cli -l USERNAME -p PASSWORD -u https://enm.your.company.domain.com
+```
 
 ## Installation
 
@@ -24,7 +33,7 @@ npm link
 Now you can launch apllication
 
 ```
-tplg-cli -l USERNAME -p PASSWORD -u https://enm.your.company.domian.com
+tplg-cli -l USERNAME -p PASSWORD -u https://enm.your.company.domain.com
 ```
 
 ## Usage
@@ -372,3 +381,5 @@ EMN returns error if commited configuration includes attributes with type SHORT.
 1.0.4a - Error corrections
 
 1.0.5a - Added `alarms`, `sync` commands
+
+1.0.6a - Publish to NPM
