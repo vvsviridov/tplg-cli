@@ -1,7 +1,7 @@
 # Cli application based on ENM Topology Browser API
 
-[![Node version](https://img.shields.io/github/package-json/version/vvsviridov/tplg-cli?label=tplg-cli&color=brightgreen)](https://github.com/vvsviridov/tplg-cli)
-[![Node version](https://img.shields.io/npm/v/tplg-cli?color=red)](https://www.npmjs.com/package/tplg-cli)
+[![Github version](https://img.shields.io/github/package-json/version/vvsviridov/tplg-cli?label=tplg-cli&color=brightgreen)](https://github.com/vvsviridov/tplg-cli)
+[![Npm version](https://img.shields.io/npm/v/tplg-cli?color=red)](https://www.npmjs.com/package/tplg-cli)
 
 ## Main goal
 
@@ -17,7 +17,13 @@ Then you can run directly from NPM without installation
 npx tplg-cli -l USERNAME -p PASSWORD -u https://enm.your.company.domain.com
 ```
 
-Or clone or download this repository and run from the project root directory ...
+Or install with NPM
+
+```
+npm i tplg-cli
+```
+
+Or download this repository and run from the project root directory ...
 
 ```
 npm install
@@ -65,10 +71,10 @@ Authentication Successful
 - `show [<valid regex>]` - shows current object's attributes filtered with regex
 - `config` - enters _config_ mode
 - `up` - navigate up one level
-- `fdn <valid FDN>` - navigate to FDN
+- `fdn [<valid FDN>]` - navigate to FDN
 - `home` - navigate to root folder
 - `alarms` - show alarms
-- `sync` - initiate node synchronization
+- `sync` - initiate node CM synchronization
 - `persistent` - toggle persistent attributes inclusion
 - `exit` - logout and exit application
 
