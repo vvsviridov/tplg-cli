@@ -389,3 +389,5 @@ EMN returns error if commited configuration includes attributes with type SHORT.
 1.0.5a - Added `alarms`, `sync` commands
 
 1.0.6a - Publish to NPM
+
+1.0.7a - Fix publish to NPM

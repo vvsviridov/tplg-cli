@@ -21,3 +21,7 @@ Added `alarms`, `sync` commands
 ## 1.0.6a
 
 Publish to NPM
+
+## 1.0.7a
+
+Fix publish to NPM
