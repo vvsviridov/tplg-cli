@@ -1,7 +1,7 @@
 # Cli application based on ENM Topology Browser API
 
-[![Github version](https://img.shields.io/github/package-json/version/vvsviridov/tplg-cli?label=tplg-cli&color=brightgreen)](https://github.com/vvsviridov/tplg-cli)
-[![Npm version](https://img.shields.io/npm/v/tplg-cli?color=red)](https://www.npmjs.com/package/tplg-cli)
+[![Github version](https://img.shields.io/github/package-json/version/vvsviridov/tplg-cli?label=tplg-cli&color=brightgreen&logo=github)](https://github.com/vvsviridov/tplg-cli)
+[![Npm version](https://img.shields.io/npm/v/tplg-cli?color=red&logo=npm&label=tplg-cli)](https://www.npmjs.com/package/tplg-cli)
 
 ## Main goal
 
